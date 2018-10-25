@@ -1,0 +1,246 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway');
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+/*reset*/
+html,body{
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+}
+/*debut banniere*/
+.intro{
+  height: 100%;
+  width: 100%;
+  padding-bottom: 50px;
+  margin: auto;
+  background-image: url(images/background.jpg) ;
+  display: table;
+  top: 0;
+  background-size: cover;
+}
+.intro .inner{
+  display: table-cell;
+  vertical-align: middle;
+  width: 100%;
+  max-width: none;
+}
+.content{
+  max-width: 500px;
+  margin: 0 auto;
+  text-align: center;
+  text-shadow: 2px 2px 3px black;
+}
+#ban_titre{
+  font-family: 'Raleway',sans-serif;
+  color: #e8f6f7;
+  text-shadow: 1px 2px 6px black;
+  font-size: 500%;
+  margin-top: 50px;
+}
+
+#message{
+  display: inline-block;
+  font-family: 'Raleway',sans-serif;
+  color: #e8f6f7 ;
+  text-shadow: 1px 2px 6px black;
+  font-size: 200%;
+  margin-bottom: 30px;
+}
+.btn{
+  border-radius: 9px;
+  font-family: 'Oswald', sans-serif;
+  color: #d77b63 ;
+  font-size: 200%;
+  padding: 00px 20px;
+  border: solid #d77b63 3px;
+  text-transform: uppercase;
+  text-decoration: none;
+  text-shadow: 1px 2px 6px black;
+  box-shadow: 1px 2px 6px black;
+}
+.btn:hover{
+  color:#e8f6f7;
+  border: solid #e8f6f7 3px
+  text-shadow: 2px 4px 6px black;
+  box-shadow: 2px 4px 6px black;
+}
+/*fin banniere*/
+/*debut nav*/
+nav ul {
+  display: block;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+  background-color: #d77b63;
+}
+nav li a{
+  padding: 10px 40px;
+  display: inline-block;
+  text-decoration: none;
+  font-family: 'Raleway',sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  color:#e8f6f7;
+  text-shadow: 1px 1px 4px black;
+}
+nav ul li a:hover{
+  color: black;
+  text-shadow: 3px 3px 4px black;
+}
+nav ul li{
+  display: inline-block;
+}
+/*fin nav*/
+/*section index*/
+section{
+  margin-left: 20px;
+  margin-right: 20px;
+  position: relative;
+}
+h2{
+  ffont-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+#p-index{
+  text-align: center;
+  font-family: 'Raleway',sans-serif;
+}
+div.chambre{
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+}
+div.chambre a img:hover{
+  box-shadow: 3px 3px 5px black;
+}
+.chambre img{
+  width: 30%;
+  margin: auto;
+  margin-left: 18px;
+  padding-bottom: 30px;
+}
+/*footer*/
+footer{
+  background-color: #d77b63;
+  padding-left: 10px;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  clear: both;
+}
+
+#footer-p{
+display: inline-block;
+font-family: 'Raleway',sans-serif;
+}
+#footer-logo{
+display: inline-block;
+margin-left: 70%;
+}
+/*catalogue*/
+.container-catalogue{
+  width: 1050px;
+  margin: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+h3{
+  text-align: center;
+  font-family: 'Oswald', sans-serif;
+}
+h4{
+  margin-left: 3px;
+  font-family: 'Oswald', sans-serif;
+}
+.catalogue{
+  display: inline-block;
+  width: 15%;
+  margin: auto;
+  padding-right: 2px;
+
+  letter-spacing: 2px;
+  border-style: solid;
+  border-width: 1px;
+  margin-left: 3px;
+  margin-right: 3px;
+}
+.catalogue img{
+  padding-left: 12px;
+}
+.catalogue img:hover{
+  padding-left: 12px;
+  box-shadow: 2px 2px 4px black;
+}
+.catalogue p{
+  font-family: 'Raleway',sans-serif;
+  padding-right: 3px;
+  padding-left: 5px;
+  overflow: scroll;
+}
+.button {
+    font-family: 'Raleway',sans-serif;
+    background-color: #d79362;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10px;
+    box-shadow: 1px 1px 5px black;
+}
+.button:hover{
+    box-shadow: 3px 3px 5px black;
+}
+fieldset{
+  width: 300px;
+  margin: auto;
+  margin-top: 20px;
+}
+#submit{
+  display: block;
+  margin-top: 20px;
+  margin-left: 170px;
+  font-size: 30px;
+  width: 150px;
+  box-shadow: 1px 1px 5px black;
+
+}
+#submit:hover{
+  display: block;
+  margin-top: 20px;
+  margin-left: 170px;
+  font-size: 30px;
+  width: 150px;
+  box-shadow: 3px 3px 5px black;
+
+}
+
+
+form p {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#map1{
+  float: right;
+  margin-right: 100px;
+  margin-bottom: 20px;
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+input[type=text] {
+    background-color: white;
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    padding-left: 40px;
+}
